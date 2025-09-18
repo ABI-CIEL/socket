@@ -15,6 +15,14 @@ namespace socketUDP
         public Form1()
         {
             InitializeComponent();
+
+            // Commit #2 : changer le titre de la fenêtre
+            this.Text = "Communication par socket UDP";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
